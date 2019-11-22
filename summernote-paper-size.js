@@ -69,6 +69,7 @@
           ui.button({
             className: 'dropdown-toggle',
             contents:  options.paperSize.icon,
+            container: 'body',
             tooltip:   lang.paperSize.tooltip,
             data: {
               toggle: 'dropdown'
